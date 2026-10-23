@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-10-14 03:08:39",
+  "sklearn_version": "1.8.0",
+  "python_version": "3.12.3",
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratified": true,
+    "train_records": 8000,
+    "test_records": 2000,
+    "test_failures": 68
+  },
+  "models": {
+    "Logistic Regression": {
+      "test": {
+        "accuracy": 0.825,
+        "precision": 0.14213197969543148,
+        "recall": 0.8235294117647058,
+        "f1": 0.24242424242424243,
+        "tn": 1594,
+        "fp": 338,
+        "fn": 12,
+        "tp": 56
+      },
+      "train": {
+        "accuracy": 0.82175,
+        "precision": 0.13793103448275862,
+        "recall": 0.8118081180811808,
+        "f1": 0.2357984994640943,
+        "tn": 6354,
+        "fp": 1375,
+        "fn": 51,
+        "tp": 220
+      },
+      "source": "Retrained with the settings in model_training.py"
+    },
+    "Decision Tree": {
+      "test": {
+        "accuracy": 0.9295,
+        "precision": 0.31088082901554404,
+        "recall": 0.8823529411764706,
+        "f1": 0.45977011494252873,
+        "tn": 1799,
+        "fp": 133,
+        "fn": 8,
+        "tp": 60
+      },
+      "train": {
+        "accuracy": 0.93175,
+        "precision": 0.3287671232876712,
+        "recall": 0.974169741697417,
+        "f1": 0.49162011173184356,
+        "tn": 7190,
+        "fp": 539,
+        "fn": 7,
+        "tp": 264
+      },
+      "source": "Retrained with the settings in model_training.py"
+    },
+    "Random Forest": {
+      "test": {
+        "accuracy": 0.969,
+        "precision": 0.53125,
+        "recall": 0.75,
+        "f1": 0.6219512195121951,
+        "tn": 1887,
+        "fp": 45,
+        "fn": 17,
+        "tp": 51
+      },
+      "train": {
+        "accuracy": 0.986125,
+        "precision": 0.7105263157894737,
+        "recall": 0.996309963099631,
+        "f1": 0.8294930875576036,
+        "tn": 7619,
+        "fp": 110,
+        "fn": 1,
+        "tp": 270
+      },
+      "source": "Saved random_forest_model.pkl evaluated (not retrained)"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+pandas
+numpy
+# random_forest_model.pkl was saved with scikit-learn 1.9.1, so use that version or newer
+scikit-learn>=1.9.1
+joblib
+# 1.40+ is needed for the card styling; older versions still run but look plainer
+streamlit>=1.40
+plotly
